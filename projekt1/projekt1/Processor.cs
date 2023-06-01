@@ -28,6 +28,7 @@ namespace projekt1
             Jobs.Add(job);
 
             job.Processor = this;
+            job.IndexOnProcessor = Jobs.Count - 1;
             job.AssignedToProcessor = true;
         }
 
